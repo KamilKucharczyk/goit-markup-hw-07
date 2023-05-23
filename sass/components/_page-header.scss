@@ -14,8 +14,7 @@
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding: 24px 0 25px;
     margin-right: 93px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -56,6 +55,10 @@
   &__link:focus {
     color: $textBlueColor;
   }
+
+  .active-page &__link {
+    color: $textBlueColor;
+  }
 }
 
 .active-page {
@@ -91,6 +94,7 @@
     height: 12px;
     vertical-align: middle;
     margin-right: 10px;
+    color: $textGreyColor;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -102,7 +106,6 @@
     line-height: 1.14;
     color: $textGreyColor;
     text-decoration: none;
-    padding-top: 34px;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,6 +121,7 @@
     height: 16px;
     vertical-align: middle;
     margin-right: 10px;
+    color: $textGreyColor;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
