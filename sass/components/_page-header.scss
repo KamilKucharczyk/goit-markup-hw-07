@@ -94,7 +94,6 @@
     height: 12px;
     vertical-align: middle;
     margin-right: 10px;
-    color: $textGreyColor;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -105,6 +104,7 @@
     font-size: 14px;
     line-height: 1.14;
     color: $textGreyColor;
+    fill: currentColor;
     text-decoration: none;
     transition-property: color;
     transition-duration: 250ms;
@@ -121,7 +121,6 @@
     height: 16px;
     vertical-align: middle;
     margin-right: 10px;
-    color: $textGreyColor;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -133,6 +132,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $textGreyColor;
+    fill: currentColor;
     text-decoration: none;
     transition-property: color;
     transition-duration: 250ms;
